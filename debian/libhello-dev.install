@@ -1,0 +1,3 @@
+usr/lib/*/libhello.a
+usr/lib/*/libhello.la
+usr/include/hello.h

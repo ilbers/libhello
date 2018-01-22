@@ -1,0 +1,20 @@
+Source: libhello
+Section: misc
+Priority: extra
+Maintainer: Alexander Smirnov <asmirnov@ilbers.de>
+Build-Depends: debhelper (>= 9), docbook-to-man
+Standards-Version: 3.9.5
+Homepage: https://github.com/ilbers/libhello
+
+Package: libhello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sample library
+ Sample shared library that can be used as a skeleton.
+
+Package: libhello-dev
+Architecture: any
+Section: devel
+Depends: libhello
+Description: Sample library headers
+ Development headers for libhello library.

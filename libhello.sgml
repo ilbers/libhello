@@ -1,0 +1,57 @@
+<!doctype refentry PUBLIC "-//OASIS//DTD DocBook V4.1//EN">
+
+<refentry>
+  <refentryinfo>
+    <address>
+      <email>asmirnov@ilbers.de</email>
+    </address>
+    <author>
+      <firstname>Alexander</firstname>
+      <surname>Smirnov</surname>
+    </author>
+    <copyright>
+      <year>2018</year>
+      <holder>ilbers GmbH</holder>
+    </copyright>
+    <date>January 22, 2018</date>
+  </refentryinfo>
+
+  <refmeta>
+    <refentrytitle>libhello</refentrytitle>
+    <manvolnum>3</manvolnum>
+  </refmeta>
+
+  <refnamediv>
+    <refname>libhello</refname>
+    <refpurpose>A sample library</refpurpose>
+  </refnamediv>
+
+  <refsynopsisdiv>
+
+  <funcsynopsis>
+    <funcprototype><funcdef>int <function>say_hello</function></funcdef>
+    <paramdef>
+      <parameter>void</parameter>
+    </paramdef>
+    </funcprototype>
+  </funcsynopsis>
+
+  </refsynopsisdiv>
+
+  <refsect1>
+    <title>DESCRIPTION</title>
+    <para>Print hello message to the standard output.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>RETURN VALUE</title>
+
+    <para><function>say_hello</function> always returns zero.</para>
+  </refsect1>
+
+  <refsect1>
+    <title>AUTHOR</title>
+
+    <para>Alexander Smirnov <email>asmirnov@ilbers.de</email></para>
+  </refsect1>
+</refentry>
