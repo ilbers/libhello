@@ -1,3 +1,9 @@
+libhello (0.2) unstable; urgency=low
+
+  * Update to bookworm.
+
+ -- Baurzhan Ismagulov <ibr@ilbers.de>  Mon, 22 Jan 2024 15:00:52 +0100
+
 libhello (0.1) unstable; urgency=low
 
   * Initial release.
